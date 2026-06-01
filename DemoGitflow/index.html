@@ -1,9 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Demo Gitflow</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Congreso Universitario de Tecnología y Sostenibilidad</title>
+
+<style>
+</style>
 </head>
+
 <body>
-    <h1>Tienda Online</h1>
+
+<header>
+    <h1>Congreso Universitario de Tecnología y Sostenibilidad</h1>
+    <p>UTN Sede San Carlos | 15, 16 y 17 de Agosto 2025</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#ponentes">Ponentes</a>
+    <a href="#horario">Horario</a>
+    <a href="#registro">Registro</a>
+</nav>
+
+<main>
+
+<section id="inicio">
+    <h2>Sobre el Congreso</h2>
+    <p>
+        Evento académico dedicado a la innovación tecnológica,
+        inteligencia artificial ética, energías renovables y
+        desarrollo sostenible.
+    </p>
+</section>
+
+<section id="ponentes">
+    <h2>Ponentes Destacados</h2>
+
+    <div class="ponentes">
+
+        <article class="card">
+            <h3>Dra. Laura Rodríguez</h3>
+            <p>Especialista en IA Ética - UCR</p>
+        </article>
+
+        <article class="card">
+            <h3>Ing. Carlos Mendoza</h3>
+            <p>Director de Innovación - ICE</p>
+        </article>
+
+        <article class="card">
+            <h3>MSc. Patricia Vega</h3>
+            <p>Investigadora en Software Libre - TEC</p>
+        </article>
+
+    </div>
+</section>
+
+<section id="horario">
+    <h2>Horario</h2>
+
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Actividad</th>
+        </tr>
+        <tr>
+            <td>08:00</td>
+            <td>Acreditación</td>
+        </tr>
+        <tr>
+            <td>09:00</td>
+            <td>Conferencia Magistral</td>
+        </tr>
+    </table>
+</section>
+
+<section id="registro">
+    <h2>Registro</h2>
+
+    <form>
+        <input type="text" placeholder="Nombre completo">
+        <input type="email" placeholder="Correo electrónico">
+        <select>
+            <option>Seleccione modalidad</option>
+            <option>Presencial</option>
+            <option>Virtual</option>
+        </select>
+
+        <button type="submit">
+            Registrarme
+        </button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>
+        © <span id="anio"></span> UTN Sede San Carlos
+    </p>
+</footer>
+
 </body>
+    <script src="script.js"></script>
 </html>
