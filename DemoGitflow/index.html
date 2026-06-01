@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Congreso Universitario de Tecnología y Sostenibilidad</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congreso Universitario de Tecnología y Sostenibilidad</title>
 
-<style>
-</style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -29,8 +28,7 @@
     <h2>Sobre el Congreso</h2>
     <p>
         Evento académico dedicado a la innovación tecnológica,
-        inteligencia artificial ética, energías renovables y
-        desarrollo sostenible.
+        inteligencia artificial ética, energías renovables y desarrollo sostenible.
     </p>
 </section>
 
@@ -77,12 +75,16 @@
 </section>
 
 <section id="registro">
+
     <h2>Registro</h2>
 
-    <form>
-        <input type="text" placeholder="Nombre completo">
-        <input type="email" placeholder="Correo electrónico">
-        <select>
+    <form id="formRegistro">
+
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+
+        <input type="email" id="correo" placeholder="Correo electrónico" required>
+
+        <select id="modalidad">
             <option>Seleccione modalidad</option>
             <option>Presencial</option>
             <option>Virtual</option>
@@ -91,17 +93,18 @@
         <button type="submit">
             Registrarme
         </button>
+
     </form>
+
 </section>
 
 </main>
 
 <footer>
-    <p>
-        © <span id="anio"></span> UTN Sede San Carlos
-    </p>
+    <p>© 2025 UTN Sede San Carlos</p>
 </footer>
 
+<script src="script.js"></script>
+
 </body>
-    <script src="script.js"></script>
 </html>
